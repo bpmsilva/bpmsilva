@@ -1,3 +1,26 @@
+:root {
+    --margin-top-small: 2.5rem;
+}
+
+
 .more-info {
     text-align: center;
+}
+
+/* Breakpoint for small devices */
+@media (max-width: 575.98px) {
+
+    .col-sm-2.abbr .badge.rounded {
+        margin-top: var(--margin-top-small);
+    }
+
+    .col-sm-8 .title {
+        margin-top: var(--margin-top-small);
+    }
+
+    .col-sm-2.abbr figure {
+        display: none;
+    }
+
+
 }
