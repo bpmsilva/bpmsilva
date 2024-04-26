@@ -4,7 +4,7 @@ title: p5 Creative Lab
 description: Simulations, animations, and interactive art
 img: assets/img/three-body-cropped.png
 importance: 1
-category: work
+category: personal
 related_publications: true
 ---
 
