@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Tiny Quests
+description: Tiny projects and tiny purposes.
+img: assets/img/tiny-quests.png
 importance: 3
 category: fun
 ---
