@@ -3,6 +3,7 @@
 }
 
 
+/* Align the front page photo "caption" */
 .more-info {
     text-align: center;
 }
@@ -18,9 +19,22 @@
         margin-top: var(--margin-top-small);
     }
 
+    /* Hide the figure element in the abbr column */
     .col-sm-2.abbr figure {
         display: none;
     }
 
+}
 
+/* Correct small bug in the CV page */
+.list-group-item .row {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.table-cv {
+    margin: 0 0 0 1rem;
+    display: flex;
+    justify-content: center;
 }
